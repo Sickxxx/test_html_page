@@ -27,6 +27,28 @@
     </style>  
 </head>
 <body>
+    <script language="JavaScript">
+        function AskName() {
+            let name  = prompt("Как тебя зовут?")
+            let message = 'Привет, ' + name
+        alert(message);
+        }
+        function AskFilm() {
+            let film = prompt("Угадаешь мой любимый фильм?")
+            if (film == "Гарри Поттер") {
+                let message = ("Угадал")
+                alert(message);
+            } else if (film != "Гарри Поттер") {
+                film = prompt('Про мальчика который выжил');
+                alert(message);
+            }    
+        }
+            
+        
+        AskName();
+        AskFilm();
+        
+    </script>
     <h1>Сегодня поговорим о блокчейне!</h1>
     <h2>Блокчейн</h2>
     <p><a href = "https://ru.wikipedia.org/wiki/%D0%91%D0%BB%D0%BE%D0%BA%D1%87%D0%B5%D0%B9%D0%BD">Вся информация взята от сюда</a> </p>
